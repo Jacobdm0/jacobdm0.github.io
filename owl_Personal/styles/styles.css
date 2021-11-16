@@ -3,12 +3,32 @@ body{
     background-color: #9E6240;
 }
 nav{
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
 }
 nav img{
-    width: 10%;
+    width: 45%;
     border-radius: 15%;
     border-style: none;
+    margin-top: 15px;
+    /* justify-self: center;
+    align-self: center; */
+
+
+}
+a{
+    color: #EDF7D2;
+    text-decoration: none;
+    font-family: Zen Kurenaido, sans-serif;
+    font-size: 29px;
+    margin-left: 10%;
+}
+a:hover{
+    color: #D4AC0D;
+    font-family: Zen Kurenaido, sans-serif;
+
 }
 img{
     width: 300px; 
@@ -17,44 +37,46 @@ img{
     border-style: solid;
 }
 footer{
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 p{
     color: #edf7d2;
-    font-family: Noto_Serif_Display, serif;;
+    font-family: Noto_Serif_Display, serif;
 }
 h1{
     color: #edf7d2;
-    font-family: Zen Kurenaido, sans-serif;;
+    font-family: Zen Kurenaido, sans-serif;
 }
 h2{
     color: #edf7d2;
-    font-family: Zen Kurenaido, sans-serif;;
+    font-family: Zen Kurenaido, sans-serif;
 }
 h3{
     color: #edf7d2;
-    font-family: Zen Kurenaido, sans-serif;;
+    font-family: Zen Kurenaido, sans-serif;
 }
 h4{
     color: #edf7d2;
-    font-family: Zen Kurenaido, sans-serif;;
+    font-family: Zen Kurenaido, sans-serif;
 }
-a{
-    color: #EDF7D2;
-    text-decoration: none;
-    font-family: Zen Kurenaido, sans-serif;;
-}
-a:hover{
-    color: #D4AC0D;
-    font-family: Zen Kurenaido, sans-serif;;
-}
+
 .page1{
     display: grid;
-
+    grid-template-columns: 1fr 1fr;
 }
+.page1-section1{}
+.page1-section2{}
 .page2{
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+.page2-section1{}
+.page2-section2{}
 .page3{
     display: grid;
+    grid-template-columns: 1fr 2fr;
 }
+.page3-section1{}
+.page3-section2{}
