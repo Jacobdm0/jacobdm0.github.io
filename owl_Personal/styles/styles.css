@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Serif+Display&family=Zen+Kurenaido&display=swap');
+body{
+    background-color: #9E6240;
+}
+nav{
+
+}
+nav img{
+    width: 10%;
+    border-radius: 15%;
+    border-style: none;
+}
+img{
+    width: 300px; 
+    border-radius: 8%;
+    border-color: #8797AF;
+    border-style: solid;
+}
+footer{
+
+}
+p{
+    color: #edf7d2;
+    font-family: Noto_Serif_Display, serif;;
+}
+h1{
+    color: #edf7d2;
+    font-family: Zen Kurenaido, sans-serif;;
+}
+h2{
+    color: #edf7d2;
+    font-family: Zen Kurenaido, sans-serif;;
+}
+h3{
+    color: #edf7d2;
+    font-family: Zen Kurenaido, sans-serif;;
+}
+h4{
+    color: #edf7d2;
+    font-family: Zen Kurenaido, sans-serif;;
+}
+a{
+    color: #EDF7D2;
+    text-decoration: none;
+    font-family: Zen Kurenaido, sans-serif;;
+}
+a:hover{
+    color: #D4AC0D;
+    font-family: Zen Kurenaido, sans-serif;;
+}
+.page1{
+    display: grid;
+
+}
+.page2{
+    display: grid;
+}
+.page3{
+    display: grid;
+}
