@@ -20,13 +20,43 @@
         <a href="strig.html">True Owls</a>
     </nav>
 
-    <main class="page1">
-        <section class="page1-section1">
-            <img src="IMG/home_1_barred.jpg" alt="Image of a barred Owl">
+    <main class="page-type-a">
+        <section class="pageA-1">
+           <!-- Trigger the Modal -->
+<img id="myImg" src="IMG/home_1_barred.jpg" alt="Image of a barred owl" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption1"></div>
+</div>
+            <p>Ridiculus taciti Nulla interdum vehicula semper. Ligula curabitur phasellus non mauris. Nullam lacinia congue blandit volutpat semper arcu, convallis, ut molestie ante facilisi ad senectus nibh cras ornare purus. Netus. Feugiat suspendisse nam aliquet nulla, libero arcu auctor mi facilisi.</p>
         </section>
 
-        <section class="page1-section2">
-            <img src="IMG/home_2_sooty.jpg" alt="image of a sooty Owl">
+        <section class="pageA-2">
+            <!-- Trigger the Modal -->
+<img id="myImg2" src="IMG/home_2_sooty.jpg" alt="Image of a sooty Owl" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+            <p>Ridiculus taciti Nulla interdum vehicula semper. Ligula curabitur phasellus non mauris. Nullam lacinia congue blandit volutpat semper arcu, convallis, ut molestie ante facilisi ad senectus nibh cras ornare purus. Netus. Feugiat suspendisse nam aliquet nulla, libero arcu auctor mi facilisi.</p>
         </section>
     </main>
 
@@ -34,7 +64,36 @@
         <a href="index.html">Home</a>
         <a href="tyto.html">Barn Owls</a>
         <a href="strig.html">True Owls</a>
-        <a href="siteplan.html">siteplan</a>
+        <a href="siteplan.html">Site Plan</a>
     </footer>
 </body>
+    <script>
+        // Get the modal
+var modal = document.getElementById("myModal1");
+var modal2 =document.getElementById("myModal");
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption1");
+var img2 = document.getElementById("myImg2");
+var modalImg2 = document.getElementById("img02");
+var captionText2 = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+img2.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+    </script>
 </html>
